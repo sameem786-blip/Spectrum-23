@@ -1,0 +1,109 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0c0c0c;
+    color: #fff;
+}
+
+.navbar-brand span {
+    margin: 0 0 0 10px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.blue {
+    background-color: #96264F;
+    color: #fff;
+    margin: 1px solid blue;
+}
+
+.drop:hover {
+    background-color: #96264F;
+    color: #fff;
+}
+
+.drop {
+    text-transform: uppercase;
+}
+
+.navbar {
+    z-index: 999;
+    background: #0c0c0c;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100vh;
+    z-index: -10;
+    opacity: .5;
+}
+
+.pos-abs {
+    position: absolute;
+    z-index: 9;
+    margin-top: 100px;
+    padding: 5px;
+    top: 0;
+}
+
+.pos-abs h2 {
+
+    font-size: 50px;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: 1px #C52239;
+    text-shadow: 0 0 20px #96264F;
+}
+
+.content svg {
+    width: 300px;
+    height: 100px;
+    transform: translate(-0%, -60%);
+
+
+}
+
+.content svg rect {
+    width: 300px;
+    height: 60px;
+    fill: transparent;
+
+}
+
+.content svg rect {
+    stroke: #96264F;
+
+    stroke-width: 4;
+    transition: 2s;
+
+    stroke-dashoffset: 200;
+    stroke-dasharray: 150, 480;
+
+    animation: off 5s 2 ease-in;
+
+}
+
+@keyframes off {
+    from {
+        stroke-dashoffset: 200;
+        stroke-dasharray: 150, 480;
+    }
+
+    to {
+        stroke-dashoffset: 400;
+        stroke-dasharray: 900, 1900;
+
+    }
+}
+
+
+
+.content p {
+    font-size: large;
+}
