@@ -1,8 +1,8 @@
-# Technovanza19
-Technovanza2019 event Website
+# Spectrum'23
+Spectrum 2023 event Website
 
 On Going project
 
 FOR DEMO
 
- Visit mahetechnovanza.com
+ Visit acmdsu.com
